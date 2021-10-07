@@ -1,0 +1,133 @@
+body {
+    text-align: center;
+    background: url("images/bgimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main_heading {
+    margin: 3% 0;
+    font-size: 3.5rem;
+    color: darkgoldenrod;
+    text-shadow: 2px 2px rgb(255, 230, 0);
+}
+
+.main_logo {
+    font-size: 4rem!important;
+    margin-right: 10px;
+    color: rgb(255, 230, 0) !important;
+    text-shadow: 3px 3px darkgoldenrod;
+}
+
+.row {
+    padding: 3% 7% 10% 7%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.cards {
+    border: 1px solid white;
+    background-color: darkgoldenrod;
+    height: 15rem;
+    margin-top: 30px;
+}
+
+.cards:hover {
+    box-shadow: 1px 2px 50px 10px rgb(255, 230, 0);
+    background-color: rgb(214, 161, 25);
+}
+
+.img {
+    display: block;
+    height: 8.5rem;
+    width: 85%;
+    padding: 10px 0 0 30px;
+}
+
+.sound_name_Div {
+    margin-top: 30px;
+}
+
+.sound_name {
+    display: inline;
+    font-size: 2rem;
+    color: white;
+}
+
+.music {
+    font-size: 2.5rem;
+    color: rgb(255, 230, 0);
+}
+
+.sound_name:hover {
+    cursor: pointer;
+    color: rgb(92, 67, 4);
+}
+
+
+/* `---------Footer---------- */
+
+footer {
+    text-align: center;
+    background-color: darkgoldenrod;
+}
+
+#copyright {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.copyright_text {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+#Contact {
+    margin: 20px 0;
+}
+
+.link {
+    padding: 0 1.5rem;
+    font-size: 1.8rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(92, 67, 4);
+    text-decoration: none;
+}
+
+@media(max-width:750px) {
+    #main_heading {
+        font-size: 2.8rem;
+    }
+    .main_logo {
+        font-size: 3.2rem!important;
+    }
+}
+
+@media(max-width:560px) {
+    #main_heading {
+        font-size: 2.5rem;
+    }
+    .main_logo {
+        font-size: 3rem!important;
+    }
+    .cards {
+        padding: 0 20%;
+    }
+    .sound_name {
+        font-size: 1.8rem;
+        color: white;
+    }
+    .music {
+        font-size: 2rem;
+    }
+    .copyright_text {
+        font-size: 1.3rem;
+        font-weight: normal;
+    }
+}
